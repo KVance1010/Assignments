@@ -1,7 +1,8 @@
 package AcessSpecifiers;
 
 class priAccesSpecifier {
-	   private void display() 
+	   @SuppressWarnings("unused")
+	private void display() 
 	    { 
 	        System.out.println("You are using private access specifier"); 
 	    } 

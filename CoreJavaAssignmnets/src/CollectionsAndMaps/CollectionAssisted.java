@@ -4,7 +4,7 @@ import java.util.*;
 public class CollectionAssisted {
 
 	public static void main(String[] args) {
-		//creating arraylist
+		//creating ArrayList
 				System.out.println("ArrayList");
 				ArrayList<String> city=new ArrayList<String>();   
 			      city.add("Bangalore");//
@@ -14,12 +14,12 @@ public class CollectionAssisted {
 				//creating vector
 			      System.out.println("\n");
 			      System.out.println("Vector");
-			      Vector<Integer> vec = new Vector();
+			      Vector<Integer> vec = new Vector<Integer>();
 			      vec.addElement(15); 
 			      vec.addElement(30); 
 			      System.out.println(vec);
 				
-				//creating linkedlist
+				//creating LinkedList
 			      System.out.println("\n");
 			      System.out.println("LinkedList");
 			      LinkedList<String> names=new LinkedList<String>();  
@@ -29,7 +29,7 @@ public class CollectionAssisted {
 			      while(itr.hasNext()){  
 			       System.out.println(itr.next());  
 			       
-			       //creating hashset
+			       //creating HashSet
 			       System.out.println("\n");
 			       System.out.println("HashSet");
 			       HashSet<Integer> set=new HashSet<Integer>();  
@@ -39,7 +39,7 @@ public class CollectionAssisted {
 			       set.add(104);
 			       System.out.println(set);
 			       
-			       //creating linkedhashset
+			       //creating LinkedHashset
 			       System.out.println("\n");
 			       System.out.println("LinkedHashSet");
 			       LinkedHashSet<Integer> set2=new LinkedHashSet<Integer>();  

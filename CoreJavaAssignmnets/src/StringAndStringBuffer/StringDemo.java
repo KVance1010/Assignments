@@ -24,11 +24,11 @@ public class StringDemo {
 
 		// toLowerCase
 		String s5 = "Hello";
-		System.out.println(s1.toLowerCase());
+		System.out.println(s5.toLowerCase());
 
 		// replace
 		String s6 = "Heldo";
-		String replace = s2.replace('d', 'l');
+		String replace = s6.replace('d', 'l');
 		System.out.println(replace);
 
 		// equals
