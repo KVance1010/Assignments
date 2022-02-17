@@ -8,24 +8,29 @@ public class CollectionAssisted {
 				System.out.println("ArrayList");
 				ArrayList<String> city=new ArrayList<String>();   
 			      city.add("Bangalore");//
-			      city.add("Delhi");    	   
-			      System.out.println(city);  
-				
+			      city.add("Delhi");  
+			      city.add("Anaheim");
+			      Collections.sort(city);
+			      for (String homeCity : city) {
+			      System.out.println(homeCity);  
+			      }
 				//creating vector
 			      System.out.println("\n");
 			      System.out.println("Vector");
 			      Vector<Integer> vec = new Vector<Integer>();
 			      vec.addElement(15); 
-			      vec.addElement(30); 
+			      vec.addElement(30);
 			      System.out.println(vec);
 				
 				//creating LinkedList
 			      System.out.println("\n");
 			      System.out.println("LinkedList");
-			      LinkedList<String> names=new LinkedList<String>();  
+			      LinkedList<String> names =new LinkedList<String>();  
 			      names.add("Alex");  
-			      names.add("John");  	      
-			      Iterator<String> itr=names.iterator();  
+			      names.add("John");
+			      names.add("Alexa");
+			      names.descendingIterator();
+			      Iterator<String> itr =names.iterator();  
 			      while(itr.hasNext()){  
 			       System.out.println(itr.next());  
 			       
@@ -36,7 +41,7 @@ public class CollectionAssisted {
 			       set.add(101);  
 			       set.add(103);  
 			       set.add(102);
-			       set.add(104);
+			       set.add(104);	       
 			       System.out.println(set);
 			       
 			       //creating LinkedHashset
